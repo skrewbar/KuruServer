@@ -1,0 +1,49 @@
+{
+  "display": {
+    "title": {
+      "text": "점프맵의 제작 - 쿠루만 깰 수 있음",
+      "color": "#ffaaaa",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "이후 노든이 쿠루가 만든 점프맵을 보고는 점프맵을 만들기 시작했는데, 그 중 쿠루만 깰 수 있어서 문제가 있었던 적이 있었습니다."
+    },
+    "icon": {
+      "item": "minecraft:barrier"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "kuruserver:root_1/adv1",
+  "criteria": {
+    "loc1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -134,
+                "max": -133
+              },
+              "y": {
+                "min": 73,
+                "max": 74
+              },
+              "z": {
+                "min": -49,
+                "max": -48
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kuruserver:gonext"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "display": {
+    "title": {
+      "text": "보트라이더의 시초 - 카트라이더",
+      "color": "#ffaaaa",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "그 후 보트라이더는 카트라이더로 변했습니다."
+    },
+    "icon": {
+      "item": "minecraft:minecart"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "kuruserver:root_2/root",
+  "criteria": {
+    "loc1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -151,
+                "max": -146
+              },
+              "y": {
+                "min": 55,
+                "max": 56
+              },
+              "z": {
+                "min": -121,
+                "max": -116
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

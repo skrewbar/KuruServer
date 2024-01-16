@@ -1,0 +1,49 @@
+{
+  "display": {
+    "title": {
+      "text": "점프맵의 제작 - Ctrl + C, Ctrl + V",
+      "color": "#ffaaaa",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "노든은 쿠루섭 시즌1의 꿀 블록 점프맵을 떠올렸고, 쿠루의 기술력과 합쳐져 어떻게 클리어 해야 할지 알 수 없는 파쿠르가 완성되었습니다."
+    },
+    "icon": {
+      "item": "minecraft:honey_block"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "kuruserver:root_1/adv6",
+  "criteria": {
+    "loc1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -121,
+                "max": -120
+              },
+              "y": {
+                "min": 80,
+                "max": 81
+              },
+              "z": {
+                "min": 15,
+                "max": 16
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kuruserver:gonext"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "title": {
+      "text": "튜토리얼 클리어!",
+      "color": "#ffaaaa",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "희망서버를 시작하실 준비가 되셨습니다!"
+    },
+    "icon": {
+      "item": "ender_pearl",
+      "nbt": "{CustomModelData:1}"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "heemangserver:root",
+  "criteria": {
+    "crit": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

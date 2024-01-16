@@ -1,0 +1,49 @@
+{
+  "display": {
+    "title": {
+      "text": "점프맵의 제작 - 노든의 열일",
+      "color": "#ffaaaa",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "노든도 다시 점프맵 작업에 몰두하기 시작했습니다. 그런데 본인이 깨지 못하는..."
+    },
+    "icon": {
+      "item": "minecraft:end_stone"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "kuruserver:root_1/adv11",
+  "criteria": {
+    "loc1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -171,
+                "max": -170
+              },
+              "y": {
+                "min": 88,
+                "max": 89
+              },
+              "z": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kuruserver:gonext"
+  }
+}

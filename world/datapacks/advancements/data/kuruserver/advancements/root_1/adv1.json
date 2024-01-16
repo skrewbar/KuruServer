@@ -1,0 +1,49 @@
+{
+  "display": {
+    "title": {
+      "text": "점프맵의 시초 - 첫 제작",
+      "color": "#ffaaaa",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "쿠루섭 시즌 2 점프맵의 시초는 쿠루가 처음 만들었던 물 안의 영혼모래 슈퍼점프였습니다."
+    },
+    "icon": {
+      "item": "minecraft:soul_sand"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "kuruserver:root_1/root",
+  "criteria": {
+    "loc1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -126,
+                "max": -125
+              },
+              "y": {
+                "min": 69,
+                "max": 70
+              },
+              "z": {
+                "min": -56,
+                "max": -55
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kuruserver:gonext"
+  }
+}

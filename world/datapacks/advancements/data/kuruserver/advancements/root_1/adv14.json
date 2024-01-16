@@ -1,0 +1,50 @@
+{
+  "display": {
+    "title": {
+      "text": "점프맵의 제작 - 쿠루의 취향",
+      "color": "#ffaaaa",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "쿠루는 예전부터 어렵고, 아슬아슬 하고, 외워서 익혀야 하는 것들을 좋아했습니다. 네. 외우세요."
+    },
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:\"skrew_bar\"}"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "kuruserver:root_1/adv13",
+  "criteria": {
+    "loc1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -135,
+                "max": -134
+              },
+              "y": {
+                "min": 90,
+                "max": 91
+              },
+              "z": {
+                "min": -9,
+                "max": -8
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kuruserver:pakour_end"
+  }
+}

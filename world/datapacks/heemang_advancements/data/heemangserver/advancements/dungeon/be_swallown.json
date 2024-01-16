@@ -1,0 +1,28 @@
+{
+  "display": {
+    "title": {
+      "text": "집어삼켜지다",
+      "color": "#ffaaaa",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "약화된 히페리온 구매"
+    },
+    "icon": {
+      "item": "ender_pearl",
+      "nbt": "{CustomModelData:2}"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/pink_concrete.png"
+  },
+  "parent": "heemangserver:dungeon/dungeon",
+  "criteria": {
+    "crit": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

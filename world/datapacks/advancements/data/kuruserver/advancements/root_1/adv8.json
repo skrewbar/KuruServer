@@ -1,0 +1,49 @@
+{
+  "display": {
+    "title": {
+      "text": "점프맵의 제작 - 합작",
+      "color": "#ffaaaa",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "점프맵 제작에 아쿠아민트가 찾아왔습니다. 아쿠아민트는 다락문 파쿠르를 만드려 했지만 너무 쉬웠고, 난이도를 올렸습니다. 그것을 본 쿠루는 말했습니다. \"이건 나도 어려운데?\""
+    },
+    "icon": {
+      "item": "minecraft:iron_trapdoor"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "kuruserver:root_1/adv7",
+  "criteria": {
+    "loc1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -108,
+                "max": -107
+              },
+              "y": {
+                "min": 73,
+                "max": 74
+              },
+              "z": {
+                "min": 12,
+                "max": 13
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kuruserver:gonext"
+  }
+}

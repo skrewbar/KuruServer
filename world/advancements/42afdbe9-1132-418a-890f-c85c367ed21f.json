@@ -1,0 +1,509 @@
+{
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_rose_red": "2023-05-06 20:06:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_sword": "2023-09-29 16:13:16 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_red_dye": "2023-05-06 20:06:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_candle": {
+    "criteria": {
+      "has_light_blue_dye": "2023-05-06 20:06:18 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2023-05-06 20:06:16 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_red_dye": "2023-05-06 20:06:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_candle": {
+    "criteria": {
+      "has_yellow_dye": "2023-05-06 20:06:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2023-09-29 15:56:32 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_yellow_dye": "2023-05-06 20:06:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2023-05-06 20:06:16 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-05-06 22:42:11 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-05-06 22:42:11 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:frozen_river": "2023-05-08 22:14:41 +0900",
+      "minecraft:windswept_hills": "2023-05-08 22:01:21 +0900",
+      "minecraft:snowy_plains": "2023-05-08 22:11:38 +0900",
+      "minecraft:stony_shore": "2023-05-08 22:11:40 +0900",
+      "minecraft:snowy_taiga": "2023-05-08 22:11:39 +0900",
+      "minecraft:desert": "2023-05-08 21:57:11 +0900",
+      "minecraft:ocean": "2023-05-08 22:01:00 +0900",
+      "minecraft:plains": "2023-05-06 20:02:10 +0900"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2023-05-06 20:06:16 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2023-09-05 19:22:09 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2023-09-30 21:52:57 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_lime_dye": "2023-05-06 20:06:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2023-05-06 20:06:16 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2023-05-06 20:06:16 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-05-06 22:28:29 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-05-08 22:11:51 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-05-06 22:42:11 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2023-05-08 22:01:15 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-05-08 22:11:51 +0900"
+    },
+    "done": true
+  },
+  "minecraft:end/levitate": {
+    "criteria": {
+      "levitated": "2023-09-29 15:56:14 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2023-05-08 22:11:51 +0900"
+    },
+    "done": true
+  },
+  "kuruserver:root": {
+    "criteria": {
+      "loc1": "2023-05-06 20:02:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_carpet_from_white_carpet": {
+    "criteria": {
+      "has_light_blue_dye": "2023-05-06 20:06:18 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet_from_white_carpet": {
+    "criteria": {
+      "has_red_dye": "2023-05-06 20:06:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_red_dye": "2023-05-06 20:06:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-05-08 22:11:51 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-05-08 22:11:51 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2023-05-06 20:06:16 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2023-05-06 22:28:28 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2023-05-06 22:42:11 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2023-05-06 20:06:16 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2023-05-06 20:06:18 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-05-08 22:11:51 +0900"
+    },
+    "done": true
+  },
+  "kuruserver:root_1/root": {
+    "criteria": {
+      "loc1": "2023-09-29 15:44:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_candle": {
+    "criteria": {
+      "has_lime_dye": "2023-05-06 20:06:19 +0900"
+    },
+    "done": true
+  },
+  "kuruserver:root_1/adv3": {
+    "criteria": {
+      "loc1": "2023-09-29 15:48:40 +0900"
+    },
+    "done": true
+  },
+  "kuruserver:root_1/adv2": {
+    "criteria": {
+      "loc1": "2023-09-29 15:46:36 +0900"
+    },
+    "done": true
+  },
+  "kuruserver:root_1/adv1": {
+    "criteria": {
+      "loc1": "2023-09-29 15:46:24 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-09-29 16:13:18 +0900"
+    },
+    "done": true
+  },
+  "kuruserver:root_1/adv7": {
+    "criteria": {
+      "loc1": "2023-09-29 15:55:47 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2023-05-06 20:06:05 +0900"
+    },
+    "done": true
+  },
+  "kuruserver:root_1/adv6": {
+    "criteria": {
+      "loc1": "2023-09-29 15:53:06 +0900"
+    },
+    "done": true
+  },
+  "kuruserver:root_1/adv5": {
+    "criteria": {
+      "loc1": "2023-09-29 15:50:56 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2023-05-06 20:36:07 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_carpet": {
+    "criteria": {
+      "has_yellow_wool": "2023-05-08 22:01:15 +0900"
+    },
+    "done": true
+  },
+  "kuruserver:root_1/adv4": {
+    "criteria": {
+      "loc1": "2023-09-29 15:50:08 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-05-06 22:42:11 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2023-05-06 20:06:16 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_banner": {
+    "criteria": {
+      "has_yellow_wool": "2023-05-08 22:01:15 +0900"
+    },
+    "done": true
+  },
+  "kuruserver:root_1/adv9": {
+    "criteria": {
+      "loc1": "2023-09-29 15:57:37 +0900"
+    },
+    "done": true
+  },
+  "kuruserver:root_1/adv8": {
+    "criteria": {
+      "loc1": "2023-09-29 15:57:08 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2023-05-06 20:06:16 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2023-05-08 21:57:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2023-09-30 21:52:57 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_carpet_from_white_carpet": {
+    "criteria": {
+      "has_lime_dye": "2023-05-06 20:06:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2023-05-08 21:57:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_sword": "2023-09-29 16:13:16 +0900"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2023-05-06 20:06:24 +0900",
+      "minecraft:basalt_deltas": "2023-05-06 20:06:06 +0900"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2023-05-06 22:28:28 +0900"
+    },
+    "done": true
+  },
+  "kuruserver:root_1/adv11": {
+    "criteria": {
+      "loc1": "2023-09-29 16:03:13 +0900"
+    },
+    "done": true
+  },
+  "kuruserver:root_1/adv12": {
+    "criteria": {
+      "loc1": "2023-09-29 16:07:09 +0900"
+    },
+    "done": true
+  },
+  "kuruserver:root_1/adv13": {
+    "criteria": {
+      "loc1": "2023-09-29 16:07:46 +0900"
+    },
+    "done": true
+  },
+  "kuruserver:root_1/adv14": {
+    "criteria": {
+      "loc1": "2023-09-29 16:09:13 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_carpet_from_white_carpet": {
+    "criteria": {
+      "has_yellow_dye": "2023-05-06 20:06:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_candle": {
+    "criteria": {
+      "has_red_dye": "2023-05-06 20:06:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2023-09-05 19:22:09 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2023-05-06 20:06:16 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_bed": {
+    "criteria": {
+      "has_yellow_wool": "2023-05-08 22:01:15 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_light_blue_dye": "2023-05-06 20:06:18 +0900"
+    },
+    "done": true
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2023-05-06 22:25:08 +0900"
+    },
+    "done": true
+  },
+  "kuruserver:root_1/adv10": {
+    "criteria": {
+      "loc1": "2023-09-29 15:59:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_red_dye": "2023-05-06 20:06:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2023-05-06 20:06:16 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_yellow_dye": "2023-05-06 20:06:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-05-08 22:11:51 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2023-05-08 21:57:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2023-05-06 20:06:16 +0900"
+    },
+    "done": true
+  },
+  "kuruserver:root_1/easter_egg/root": {
+    "criteria": {
+      "loc1": "2023-09-29 15:59:30 +0900"
+    },
+    "done": true
+  },
+  "DataVersion": 3218
+}

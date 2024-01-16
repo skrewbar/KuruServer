@@ -1,0 +1,46 @@
+{
+  "display": {
+    "title": {
+      "text": "쿠루섭 시즌2!",
+      "color": "#ffaaaa",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "쿠루섭이 복원되어 가고 있습니다."
+    },
+    "icon": {
+      "item": "red_tulip"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/pink_concrete.png"
+  },
+  "criteria": {
+    "loc1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -99,
+                "max": -98
+              },
+              "y": {
+                "min": 54,
+                "max": 55
+              },
+              "z": {
+                "min": -96,
+                "max": -95
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

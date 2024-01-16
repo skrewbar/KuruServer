@@ -1,0 +1,50 @@
+{
+  "display": {
+    "title": {
+      "text": "점프맵의 제작 - 아쿠아민트의 열일",
+      "color": "#ffaaaa",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "아쿠아민트는 열심히 재밌는 파쿠르를 만들기 시작했습니다. 물론 쿠루는 옆에서 난이도를 높였죠."
+    },
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:\"AquaMint15\"}"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "kuruserver:root_1/easter_egg/root",
+  "criteria": {
+    "loc1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -172,
+                "max": -171
+              },
+              "y": {
+                "min": 75,
+                "max": 76
+              },
+              "z": {
+                "min": 17,
+                "max": 18
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kuruserver:gonext"
+  }
+}

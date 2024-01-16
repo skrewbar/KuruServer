@@ -1,0 +1,1 @@
+execute at @s run playsound minecraft:ui.toast.challenge_complete master @a[distance=..20] ~ ~ ~ 1 0.1

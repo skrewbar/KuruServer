@@ -1,0 +1,46 @@
+{
+  "display": {
+    "title": {
+      "text": "쿠루섭의 시초 2",
+      "color": "#ffaaaa",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "쿠루섭 시즌 2의 시작은 보트라이더로 시작되었습니다."
+    },
+    "icon": {
+      "item": "minecraft:oak_boat"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "kuruserver:root",
+  "criteria": {
+    "loc1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -116,
+                "max": -111
+              },
+              "y": {
+                "min": 55,
+                "max": 56
+              },
+              "z": {
+                "min": -125,
+                "max": -119
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

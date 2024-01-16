@@ -1,0 +1,26 @@
+{
+  "display": {
+    "title": {
+      "text": "세월 속 파수꾼",
+      "color": "#ffaaaa",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "고대 수호자 세트 (갑옷) 모두 착용"
+    },
+    "icon": {
+      "item": "minecraft:minecart"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "heemangserver:weapons_and_armors/guardian_in_time",
+  "criteria": {
+    "crit": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

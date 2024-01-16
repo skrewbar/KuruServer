@@ -1,0 +1,27 @@
+{
+  "display": {
+    "title": {
+      "text": "저는 더 이상 배울 게 없습니다",
+      "color": "#ffaaaa",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "대사부 코큰을 격파하세요!"
+    },
+    "icon": {
+      "item": "minecraft:oak_boat"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/pink_concrete.png"
+  },
+  "parent": "heemangserver:boss/curse_repulse",
+  "criteria": {
+    "crit": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

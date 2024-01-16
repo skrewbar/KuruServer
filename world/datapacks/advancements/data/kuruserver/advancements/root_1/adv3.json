@@ -1,0 +1,49 @@
+{
+  "display": {
+    "title": {
+      "text": "점프맵의 제작 - 쿠루가 해결해 줄거야--",
+      "color": "#ffaaaa",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "노든은 꼼수를 쓰는 사람들을 걱정했고 쿠루는 그 걱정을 대신 덜어줬습니다."
+    },
+    "icon": {
+      "item": "minecraft:light"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "kuruserver:root_1/adv2",
+  "criteria": {
+    "loc1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -137,
+                "max": -136
+              },
+              "y": {
+                "min": 74,
+                "max": 75
+              },
+              "z": {
+                "min": -42,
+                "max": -41
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kuruserver:gonext"
+  }
+}

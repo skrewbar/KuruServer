@@ -1,0 +1,18 @@
+{
+  "kuruserver:root": {
+    "criteria": {
+      "loc1": "2023-04-30 16:47:11 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2023-04-30 16:48:55 +0900",
+      "minecraft:desert": "2023-04-30 16:47:34 +0900",
+      "minecraft:ocean": "2023-04-30 16:47:25 +0900",
+      "minecraft:plains": "2023-04-30 16:47:11 +0900"
+    },
+    "done": false
+  },
+  "DataVersion": 3218
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "title": {
+      "text": "적응의 동물",
+      "color": "#ffaaaa",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "바이옴 블레이드 구매"
+    },
+    "icon": {
+      "item": "minecraft:minecart"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "heemangserver:weapons_and_armors/weapons_and_armors",
+  "criteria": {
+    "crit": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

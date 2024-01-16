@@ -1,0 +1,49 @@
+{
+  "display": {
+    "title": {
+      "text": "점프맵의 제작 - 공중에 떠 있네?",
+      "color": "#ffaaaa",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "노든은 케이크를 공중에 띄우고 싶었지만 실패했습니다. 그렇게 포기하려는 순간, 뒤에서 쿠루가 커맨드 블록을 만지고 있다는 것을 깨달았습니다."
+    },
+    "icon": {
+      "item": "minecraft:cake"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "kuruserver:root_1/adv4",
+  "criteria": {
+    "loc1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -141,
+                "max": -140
+              },
+              "y": {
+                "min": 78,
+                "max": 79
+              },
+              "z": {
+                "min": -9,
+                "max": -8
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kuruserver:gonext"
+  }
+}
