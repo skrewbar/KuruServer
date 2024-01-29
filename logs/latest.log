@@ -1,142 +1,1044 @@
-[01:32:33] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:32:37] [ServerMain/INFO]: Loaded 7 recipes
-[01:32:37] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[01:32:37] [Server thread/INFO]: Loading properties
-[01:32:37] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[01:32:38] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:32:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:32:38] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[01:34:58] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:35:00] [ServerMain/INFO]: Loaded 7 recipes
+[01:35:01] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[01:35:01] [Server thread/INFO]: Loading properties
+[01:35:01] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[01:35:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:35:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:35:02] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[01:32:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[01:32:38] [Server thread/INFO]: Default game type: CREATIVE
-[01:32:38] [Server thread/INFO]: Generating keypair
-[01:32:38] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:32:39] [Server thread/INFO]: Using default channel type
-[01:32:39] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[01:32:39] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[01:32:39] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.13+46576cc
-[01:32:40] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5fc22963]
-[01:32:40] [Server thread/ERROR]: [WorldEdit] Error initializing plugin 'worldedit-bukkit-7.2.13.jar' in folder 'plugins' (Is it up to date?)
-java.lang.NoSuchMethodError: org.yaml.snakeyaml.representer.Representer: method 'void <init>()' not found
-	at com.sk89q.util.yaml.YAMLProcessor$FancyRepresenter.<init>(YAMLProcessor.java:310) ~[worldedit-bukkit-7.2.13.jar:?]
-	at com.sk89q.util.yaml.YAMLProcessor$FancyRepresenter.<init>(YAMLProcessor.java:309) ~[worldedit-bukkit-7.2.13.jar:?]
-	at com.sk89q.util.yaml.YAMLProcessor.<init>(YAMLProcessor.java:96) ~[worldedit-bukkit-7.2.13.jar:?]
-	at com.sk89q.util.yaml.YAMLProcessor.<init>(YAMLProcessor.java:113) ~[worldedit-bukkit-7.2.13.jar:?]
-	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onLoad(WorldEditPlugin.java:141) ~[worldedit-bukkit-7.2.13.jar:?]
-	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:40) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:510) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
+[01:35:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[01:35:02] [Server thread/INFO]: Default game type: CREATIVE
+[01:35:02] [Server thread/INFO]: Generating keypair
+[01:35:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:35:02] [Server thread/INFO]: Using default channel type
+[01:35:02] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[01:35:02] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[01:35:03] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[01:35:03] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2692864b]
+[01:35:03] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[01:35:03] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[01:35:03] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[01:35:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:35:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[01:35:03] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:35:04] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:35:04] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[01:35:05] [Server thread/INFO]: Preparing level "world"
+[01:35:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:35:06] [Server thread/INFO]: Time elapsed: 130 ms
+[01:35:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:35:06] [Server thread/INFO]: Time elapsed: 23 ms
+[01:35:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:35:06] [Server thread/INFO]: Time elapsed: 18 ms
+[01:35:06] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[01:35:06] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:35:06] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:35:06] [Server thread/INFO]: Preparing start region for dimension minecraft:test
+[01:35:06] [Server thread/INFO]: Time elapsed: 16 ms
+[01:35:06] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[01:35:06] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:35:06] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:35:06] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[01:35:06] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
+[01:35:06] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[01:35:06] [Server thread/INFO]: Running delayed init tasks
+[01:35:06] [Server thread/INFO]: Done (5.299s)! For help, type "help"
+[01:35:06] [Server thread/INFO]: Timings Reset
+[01:35:14] [User Authenticator #0/INFO]: UUID of player skuru is 77a248d7-22d9-44fb-b802-f76b9999e315
+[01:35:15] [Server thread/INFO]: [쿠루섭] skuru 님이 착륙하셨어요.
+[01:35:15] [Server thread/INFO]: skuru[/127.0.0.1:3817] logged in with entity id 263 at ([world]-84.92561064075291, 66.75178390334713, -103.98889888156975)
+[01:35:35] [Server thread/INFO]: skuru issued server command: /hell
+[01:35:37] [Server thread/INFO]: skuru issued server command: /hell open
+[01:35:37] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'hell' in plugin Hell v1.0.0
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.1.jar:git-Paper-196]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[paper-1.20.1.jar:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:324) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:308) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2354) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$21(ServerGamePacketListenerImpl.java:2314) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[01:32:40] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
-[01:32:40] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
-[01:32:40] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
-[01:32:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:32:40] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.13+46576cc
-[01:32:40] [Server thread/ERROR]: Could not dispatch event: com.sk89q.worldedit.event.platform.PlatformsRegisteredEvent@5f52bca7 to handler EventHandler{priority=NORMAL}
-java.lang.reflect.InvocationTargetException: null
-	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:75) ~[worldedit-bukkit-7.2.13.jar:?]
-	at com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[worldedit-bukkit-7.2.13.jar:?]
-	at com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[worldedit-bukkit-7.2.13.jar:?]
-	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:160) ~[worldedit-bukkit-7.2.13.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:642) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:553) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:274) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
+Caused by: java.lang.NullPointerException: Cannot invoke "com.skuru.hell.Hell.getConfig()" because "plugin" is null
+	at com.skuru.hell.inventories.AchieveInv.itemSetup(AchieveInv.java:18) ~[Hell.jar:?]
+	at com.skuru.hell.inventories.AchieveInv.<init>(AchieveInv.java:27) ~[Hell.jar:?]
+	at com.skuru.hell.commands.HellCommand.onCommand(HellCommand.java:20) ~[Hell.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	... 23 more
+[01:37:38] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[01:37:38] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[01:37:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:37:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:37:38] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[01:37:38] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[01:37:38] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[01:37:38] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[01:37:38] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:37:39] [Server thread/INFO]: Loaded 7 recipes
+[01:37:39] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[01:37:40] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@78c4b22f]
+[01:37:40] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[01:37:40] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[01:37:40] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[01:37:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:37:40] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[01:37:40] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:37:40] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:37:40] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[01:37:40] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[01:37:41] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[01:37:41] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:37:41] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:37:41] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[01:37:41] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:37:41] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:37:41] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[01:37:41] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
+[01:37:41] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[01:37:42] [Server thread/INFO]: CONSOLE: Reload complete.
+[01:37:42] [Server thread/INFO]: Timings Reset
+[01:37:51] [Server thread/INFO]: skuru issued server command: /hell
+[01:37:52] [Server thread/INFO]: skuru issued server command: /hell open
+[01:37:52] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'hell' in plugin Hell v1.0.0
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.1.jar:git-Paper-196]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[paper-1.20.1.jar:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:324) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:308) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2354) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$21(ServerGamePacketListenerImpl.java:2314) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "com.sk89q.worldedit.LocalConfiguration.getWorkingDirectoryPath()" because the return value of "com.sk89q.worldedit.WorldEdit.getConfiguration()" is null
-	at com.sk89q.worldedit.WorldEdit.getWorkingDirectoryPath(WorldEdit.java:462) ~[worldedit-bukkit-7.2.13.jar:?]
-	at com.sk89q.worldedit.util.asset.AssetLoaders.init(AssetLoaders.java:67) ~[worldedit-bukkit-7.2.13.jar:?]
-	at com.sk89q.worldedit.extension.platform.Capability$2.initialize(Capability.java:55) ~[worldedit-bukkit-7.2.13.jar:?]
-	at com.sk89q.worldedit.extension.platform.PlatformManager.choosePreferred(PlatformManager.java:193) ~[worldedit-bukkit-7.2.13.jar:?]
-	at com.sk89q.worldedit.extension.platform.PlatformManager.handlePlatformsRegistered(PlatformManager.java:319) ~[worldedit-bukkit-7.2.13.jar:?]
-	at com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51) ~[worldedit-bukkit-7.2.13.jar:?]
-	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[worldedit-bukkit-7.2.13.jar:?]
-	... 13 more
-[01:32:40] [Server thread/ERROR]: Error occurred while enabling WorldEdit v7.2.13+46576cc (Is it up to date?)
-java.lang.NoSuchMethodError: org.yaml.snakeyaml.representer.Representer: method 'void <init>()' not found
-	at com.sk89q.util.yaml.YAMLProcessor$FancyRepresenter.<init>(YAMLProcessor.java:310) ~[worldedit-bukkit-7.2.13.jar:?]
-	at com.sk89q.util.yaml.YAMLProcessor$FancyRepresenter.<init>(YAMLProcessor.java:309) ~[worldedit-bukkit-7.2.13.jar:?]
-	at com.sk89q.util.yaml.YAMLProcessor.<init>(YAMLProcessor.java:96) ~[worldedit-bukkit-7.2.13.jar:?]
-	at com.sk89q.wepif.PermissionsResolverManager.loadConfig(PermissionsResolverManager.java:197) ~[worldedit-bukkit-7.2.13.jar:?]
-	at com.sk89q.wepif.PermissionsResolverManager.<init>(PermissionsResolverManager.java:103) ~[worldedit-bukkit-7.2.13.jar:?]
-	at com.sk89q.wepif.PermissionsResolverManager.initialize(PermissionsResolverManager.java:67) ~[worldedit-bukkit-7.2.13.jar:?]
-	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:162) ~[worldedit-bukkit-7.2.13.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:642) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:553) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:274) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
+Caused by: java.lang.ClassCastException: class org.bukkit.Material cannot be cast to class org.bukkit.inventory.ItemStack (org.bukkit.Material and org.bukkit.inventory.ItemStack are in unnamed module of loader java.net.URLClassLoader @484b61fc)
+	at com.skuru.hell.inventories.AchieveInv.itemSetup(AchieveInv.java:22) ~[Hell.jar:?]
+	at com.skuru.hell.inventories.AchieveInv.<init>(AchieveInv.java:27) ~[Hell.jar:?]
+	at com.skuru.hell.commands.HellCommand.onCommand(HellCommand.java:20) ~[Hell.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	... 23 more
+[01:39:08] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[01:39:08] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[01:39:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:39:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:39:09] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[01:39:09] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[01:39:09] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[01:39:09] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[01:39:09] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:39:09] [Server thread/INFO]: Loaded 7 recipes
+[01:39:10] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[01:39:10] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4a51d6a0]
+[01:39:10] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[01:39:10] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[01:39:10] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[01:39:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:39:10] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[01:39:10] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:39:10] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:39:10] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[01:39:10] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[01:39:11] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[01:39:11] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:39:11] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:39:11] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[01:39:11] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:39:11] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:39:11] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[01:39:11] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
+[01:39:11] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[01:39:12] [Server thread/INFO]: CONSOLE: Reload complete.
+[01:39:12] [Server thread/INFO]: Timings Reset
+[01:39:45] [Server thread/INFO]: skuru issued server command: /hell open
+[01:40:05] [Server thread/INFO]: skuru issued server command: /hell open
+[01:41:35] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[01:41:35] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[01:41:35] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:41:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:41:35] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[01:41:35] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[01:41:35] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[01:41:35] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[01:41:35] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:41:36] [Server thread/INFO]: Loaded 7 recipes
+[01:41:36] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[01:41:37] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@443d2]
+[01:41:37] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[01:41:37] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[01:41:37] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[01:41:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:41:37] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[01:41:37] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:41:37] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:41:37] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[01:41:37] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[01:41:38] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[01:41:38] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:41:38] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:41:38] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[01:41:38] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:41:38] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:41:38] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[01:41:38] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
+[01:41:38] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[01:41:38] [Server thread/INFO]: CONSOLE: Reload complete.
+[01:41:38] [Server thread/INFO]: Timings Reset
+[01:41:41] [Server thread/INFO]: skuru issued server command: /hell open
+[01:41:42] [Server thread/ERROR]: Could not pass event InventoryClickEvent to Hell v1.0.0
+java.lang.NullPointerException: Cannot invoke "java.util.List.contains(Object)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLore()" is null
+	at com.skuru.hell.events.ClickInv.clickInv(ClickInv.java:28) ~[Hell.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor119.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3237) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:58) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:23) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[01:32:40] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.13+46576cc
-[01:32:40] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[01:32:40] [Server thread/INFO]: Preparing level "world"
-[01:32:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:32:41] [Server thread/INFO]: Time elapsed: 179 ms
-[01:32:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[01:32:41] [Server thread/INFO]: Time elapsed: 21 ms
-[01:32:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[01:32:41] [Server thread/INFO]: Time elapsed: 15 ms
-[01:32:41] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[01:32:41] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[01:32:41] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[01:32:41] [Server thread/INFO]: Preparing start region for dimension minecraft:test
-[01:32:41] [Server thread/INFO]: Time elapsed: 13 ms
-[01:32:41] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[01:32:41] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[01:32:41] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[01:32:41] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
-[01:32:41] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
-[01:32:41] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
-[01:32:42] [Server thread/INFO]: Running delayed init tasks
-[01:32:42] [Server thread/INFO]: Done (4.225s)! For help, type "help"
-[01:32:42] [Server thread/INFO]: Timings Reset
-[01:32:57] [Server thread/INFO]: Stopping the server
-[01:32:57] [Server thread/INFO]: Stopping server
-[01:32:57] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
-[01:32:57] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
-[01:32:57] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
-[01:32:57] [Server thread/INFO]: Saving players
-[01:32:57] [Server thread/INFO]: Saving worlds
-[01:32:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:32:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[01:32:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[01:32:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[01:32:58] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 1.15s
-[01:32:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:32:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[01:32:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[01:32:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[01:32:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[01:33:00] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 1.05s
-[01:33:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:33:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[01:33:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[01:33:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[01:33:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[01:33:01] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.30s
-[01:33:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:33:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[test]'/minecraft:test
-[01:33:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'test'
-[01:33:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'test'
-[01:33:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'test'
-[01:33:03] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'test' in 1.35s
-[01:33:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (test): All chunks are saved
-[01:33:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:33:03] [Server thread/INFO]: Flushing Chunk IO
-[01:33:03] [Server thread/INFO]: Closing Thread Pool
-[01:33:03] [Server thread/INFO]: Closing Server
+[01:42:50] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[01:42:50] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[01:42:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:42:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:42:50] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[01:42:50] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[01:42:50] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[01:42:50] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[01:42:50] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:42:51] [Server thread/INFO]: Loaded 7 recipes
+[01:42:51] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[01:42:51] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3d19b57a]
+[01:42:51] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[01:42:51] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[01:42:51] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[01:42:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:42:51] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[01:42:51] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:42:52] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:42:52] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[01:42:52] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[01:42:52] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[01:42:52] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:42:52] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:42:52] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[01:42:52] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:42:52] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:42:52] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[01:42:52] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
+[01:42:52] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[01:42:53] [Server thread/INFO]: CONSOLE: Reload complete.
+[01:42:53] [Server thread/INFO]: Timings Reset
+[01:42:55] [Server thread/INFO]: skuru issued server command: /hell open
+[01:43:30] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[01:43:30] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[01:43:31] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:43:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:43:31] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[01:43:31] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[01:43:31] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[01:43:31] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[01:43:31] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:43:31] [Server thread/INFO]: Loaded 7 recipes
+[01:43:32] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[01:43:32] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6b89926a]
+[01:43:32] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[01:43:32] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[01:43:32] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[01:43:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:43:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[01:43:32] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:43:32] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:43:32] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[01:43:32] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[01:43:33] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[01:43:33] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:43:33] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:43:33] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[01:43:33] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:43:33] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:43:33] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[01:43:33] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
+[01:43:33] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[01:43:33] [Server thread/INFO]: CONSOLE: Reload complete.
+[01:43:33] [Server thread/INFO]: Timings Reset
+[01:43:44] [Server thread/ERROR]: Could not pass event InventoryClickEvent to Hell v1.0.0
+java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at com.skuru.hell.events.ClickInv.clickInv(ClickInv.java:28) ~[Hell.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor179.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3237) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:58) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:23) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[01:44:51] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[01:44:51] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[01:44:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:44:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:44:51] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[01:44:51] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[01:44:51] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[01:44:51] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[01:44:51] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:44:51] [Server thread/INFO]: Loaded 7 recipes
+[01:44:52] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[01:44:52] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@63dc6e09]
+[01:44:52] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[01:44:52] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[01:44:52] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[01:44:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:44:52] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[01:44:52] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:44:52] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:44:52] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[01:44:53] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[01:44:53] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[01:44:53] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:44:53] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:44:53] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[01:44:53] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:44:53] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:44:53] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[01:44:53] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
+[01:44:53] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[01:44:53] [Server thread/INFO]: CONSOLE: Reload complete.
+[01:44:53] [Server thread/INFO]: Timings Reset
+[01:45:13] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[01:45:13] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[01:45:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:45:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:45:13] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[01:45:13] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[01:45:13] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[01:45:13] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[01:45:13] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:45:14] [Server thread/INFO]: Loaded 7 recipes
+[01:45:14] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[01:45:15] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5c8204df]
+[01:45:15] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[01:45:15] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[01:45:15] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[01:45:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:45:15] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[01:45:15] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:45:15] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:45:15] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[01:45:15] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[01:45:15] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[01:45:15] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:45:15] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:45:15] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[01:45:15] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:45:15] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:45:15] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[01:45:15] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
+[01:45:15] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[01:45:16] [Server thread/INFO]: CONSOLE: Reload complete.
+[01:45:16] [Server thread/INFO]: Timings Reset
+[01:48:42] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[01:48:42] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[01:48:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:48:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:48:43] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[01:48:43] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[01:48:43] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[01:48:43] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[01:48:43] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:48:43] [Server thread/INFO]: Loaded 7 recipes
+[01:48:43] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[01:48:44] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@8bdb1a9]
+[01:48:44] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[01:48:44] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[01:48:44] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[01:48:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:48:44] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[01:48:44] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:48:44] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:48:44] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[01:48:44] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[01:48:44] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[01:48:44] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:48:44] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:48:45] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[01:48:45] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:48:45] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:48:45] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[01:48:45] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
+[01:48:45] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[01:48:45] [Server thread/INFO]: CONSOLE: Reload complete.
+[01:48:45] [Server thread/INFO]: Timings Reset
+[01:48:50] [Server thread/INFO]: skuru issued server command: /hell open
+[01:48:51] [Server thread/ERROR]: Could not pass event InventoryClickEvent to Hell v1.0.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.ItemStack.getType()" because "item" is null
+	at com.skuru.hell.events.ClickInv.clickInv(ClickInv.java:31) ~[Hell.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor269.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3237) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:58) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:23) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[01:50:39] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[01:50:39] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[01:50:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:50:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:50:39] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[01:50:39] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[01:50:39] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[01:50:39] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[01:50:39] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:50:39] [Server thread/INFO]: Loaded 7 recipes
+[01:50:40] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[01:50:40] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@68453ddd]
+[01:50:40] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[01:50:40] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[01:50:40] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[01:50:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:50:40] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[01:50:40] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:50:40] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:50:40] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[01:50:40] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[01:50:41] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[01:50:41] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:50:41] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:50:41] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[01:50:41] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:50:41] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:50:41] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[01:50:41] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
+[01:50:41] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[01:50:41] [Server thread/INFO]: CONSOLE: Reload complete.
+[01:50:41] [Server thread/INFO]: Timings Reset
+[01:50:43] [Server thread/ERROR]: Could not pass event InventoryClickEvent to Hell v1.0.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.ItemStack.getType()" because "item" is null
+	at com.skuru.hell.events.ClickInv.clickInv(ClickInv.java:32) ~[Hell.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor299.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3237) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:58) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:23) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[01:50:45] [Server thread/ERROR]: Could not pass event InventoryClickEvent to Hell v1.0.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.ItemStack.getType()" because "clickedItem" is null
+	at com.skuru.hell.events.ClickInv.clickInv(ClickInv.java:29) ~[Hell.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor299.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3237) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:58) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:23) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[01:51:13] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[01:51:13] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[01:51:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:51:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:51:13] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[01:51:13] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[01:51:13] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[01:51:13] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[01:51:13] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:51:14] [Server thread/INFO]: Loaded 7 recipes
+[01:51:14] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[01:51:14] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3d43888d]
+[01:51:14] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[01:51:14] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[01:51:14] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[01:51:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:51:14] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[01:51:14] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:51:14] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:51:14] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[01:51:15] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[01:51:15] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[01:51:15] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:51:15] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:51:15] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[01:51:15] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:51:15] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:51:15] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[01:51:15] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
+[01:51:15] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[01:51:15] [Server thread/INFO]: CONSOLE: Reload complete.
+[01:51:15] [Server thread/INFO]: Timings Reset
+[01:51:17] [Server thread/ERROR]: Could not pass event InventoryClickEvent to Hell v1.0.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.ItemStack.getType()" because "item" is null
+	at com.skuru.hell.events.ClickInv.clickInv(ClickInv.java:32) ~[Hell.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor329.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3237) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:58) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:23) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[01:51:28] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[01:51:28] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[01:51:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:51:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:51:28] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[01:51:28] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[01:51:28] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[01:51:28] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[01:51:28] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:51:28] [Server thread/INFO]: Loaded 7 recipes
+[01:51:29] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[01:51:29] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@21b497d9]
+[01:51:29] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[01:51:29] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[01:51:29] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[01:51:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:51:29] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[01:51:29] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:51:29] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:51:29] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[01:51:29] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[01:51:30] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[01:51:30] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:51:30] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:51:30] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[01:51:30] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:51:30] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:51:30] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[01:51:30] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
+[01:51:30] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[01:51:30] [Server thread/INFO]: CONSOLE: Reload complete.
+[01:51:30] [Server thread/INFO]: Timings Reset
+[01:51:35] [Server thread/ERROR]: Could not pass event InventoryClickEvent to Hell v1.0.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.ItemStack.getType()" because "item" is null
+	at com.skuru.hell.events.ClickInv.clickInv(ClickInv.java:31) ~[Hell.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor359.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3237) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:58) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:23) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[01:52:21] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[01:52:21] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[01:52:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:52:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:52:21] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[01:52:21] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[01:52:21] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[01:52:21] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[01:52:21] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:52:22] [Server thread/INFO]: Loaded 7 recipes
+[01:52:22] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[01:52:23] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5d3a9e61]
+[01:52:23] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[01:52:23] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[01:52:23] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[01:52:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:52:23] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[01:52:23] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:52:23] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:52:23] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[01:52:23] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[01:52:24] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[01:52:24] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:52:24] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:52:24] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[01:52:24] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:52:24] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:52:24] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[01:52:24] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
+[01:52:24] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[01:52:24] [Server thread/INFO]: CONSOLE: Reload complete.
+[01:52:24] [Server thread/INFO]: Timings Reset
+[01:52:31] [Server thread/INFO]: skuru issued server command: /hell open
+[01:53:13] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[01:53:13] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[01:53:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:53:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:53:13] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[01:53:13] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[01:53:13] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[01:53:13] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[01:53:13] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:53:13] [Server thread/INFO]: Loaded 7 recipes
+[01:53:14] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[01:53:14] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2e8c4bac]
+[01:53:14] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[01:53:14] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[01:53:14] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[01:53:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:53:14] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[01:53:14] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:53:14] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:53:14] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[01:53:14] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[01:53:15] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[01:53:15] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:53:15] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:53:15] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[01:53:15] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:53:15] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:53:15] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[01:53:15] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
+[01:53:15] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[01:53:15] [Server thread/INFO]: CONSOLE: Reload complete.
+[01:53:15] [Server thread/INFO]: Timings Reset
+[01:53:19] [Server thread/INFO]: skuru issued server command: /hell open
+[01:53:19] [Server thread/ERROR]: Could not pass event InventoryClickEvent to Hell v1.0.0
+java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 1
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at com.skuru.hell.events.ClickInv.clickInv(ClickInv.java:28) ~[Hell.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor419.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3237) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:58) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:23) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[01:53:25] [Server thread/ERROR]: Could not pass event InventoryClickEvent to Hell v1.0.0
+java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 1
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at com.skuru.hell.events.ClickInv.clickInv(ClickInv.java:28) ~[Hell.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor419.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3237) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:58) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:23) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[01:53:34] [Server thread/INFO]: skuru issued server command: /hell open
+[01:53:35] [Server thread/ERROR]: Could not pass event InventoryClickEvent to Hell v1.0.0
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at com.skuru.hell.events.ClickInv.clickInv(ClickInv.java:28) ~[Hell.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor419.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3237) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:58) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:23) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:114) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1424) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[01:53:51] [Server thread/INFO]: skuru issued server command: /hell open
+[01:53:53] [Server thread/INFO]: skuru issued server command: /hell setup
+[01:53:59] [Server thread/INFO]: skuru issued server command: /hell open
+[01:56:24] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[01:56:24] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[01:56:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:56:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:56:25] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[01:56:25] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[01:56:25] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[01:56:25] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[01:56:25] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:56:25] [Server thread/INFO]: Loaded 7 recipes
+[01:56:25] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[01:56:26] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4c08937]
+[01:56:26] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[01:56:26] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[01:56:26] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[01:56:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:56:26] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[01:56:26] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:56:26] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:56:26] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[01:56:26] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[01:56:26] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[01:56:26] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:56:26] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:56:26] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[01:56:26] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:56:26] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:56:26] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[01:56:26] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
+[01:56:26] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[01:56:27] [Server thread/INFO]: CONSOLE: Reload complete.
+[01:56:27] [Server thread/INFO]: Timings Reset
+[01:56:30] [Server thread/INFO]: skuru issued server command: /hell open
+[01:58:20] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[01:58:20] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[01:58:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:58:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:58:20] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[01:58:20] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[01:58:20] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[01:58:20] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[01:58:20] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:58:20] [Server thread/INFO]: Loaded 7 recipes
+[01:58:21] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[01:58:21] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4efbb916]
+[01:58:21] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[01:58:21] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[01:58:21] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[01:58:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:58:21] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[01:58:21] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:58:21] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:58:21] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[01:58:21] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[01:58:22] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[01:58:22] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:58:22] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:58:22] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[01:58:22] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:58:22] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:58:22] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[01:58:22] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
+[01:58:22] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[01:58:22] [Server thread/INFO]: CONSOLE: Reload complete.
+[01:58:22] [Server thread/INFO]: Timings Reset
+[01:58:25] [Server thread/INFO]: skuru issued server command: /hell open
+[01:58:49] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[01:58:49] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[01:58:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:58:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:58:49] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[01:58:49] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[01:58:49] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[01:58:49] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[01:58:49] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:58:50] [Server thread/INFO]: Loaded 7 recipes
+[01:58:50] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[01:58:50] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@11b903c5]
+[01:58:50] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[01:58:50] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[01:58:50] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[01:58:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:58:50] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[01:58:50] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:58:50] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:58:50] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[01:58:51] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[01:58:51] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[01:58:51] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:58:51] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:58:51] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[01:58:51] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:58:51] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:58:51] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[01:58:51] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
+[01:58:51] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[01:58:52] [Server thread/INFO]: CONSOLE: Reload complete.
+[01:58:52] [Server thread/INFO]: Timings Reset
+[01:58:54] [Server thread/INFO]: skuru issued server command: /hell open
+[02:01:39] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[02:01:39] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[02:01:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:01:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:01:39] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[02:01:39] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[02:01:39] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[02:01:39] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[02:01:39] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:01:39] [Server thread/INFO]: Loaded 7 recipes
+[02:01:40] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[02:01:40] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@202f3d01]
+[02:01:40] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[02:01:40] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[02:01:40] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[02:01:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:01:40] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[02:01:40] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:01:40] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:01:40] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[02:01:40] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[02:01:41] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[02:01:41] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[02:01:41] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[02:01:41] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[02:01:41] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[02:01:41] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[02:01:41] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[02:01:41] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
+[02:01:41] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[02:01:41] [Server thread/INFO]: CONSOLE: Reload complete.
+[02:01:41] [Server thread/INFO]: Timings Reset
+[02:01:44] [Server thread/INFO]: skuru issued server command: /hell open
+[02:02:03] [Server thread/INFO]: skuru issued server command: /hell open
+[02:02:22] [Server thread/INFO]: skuru issued server command: /hell open
+[02:02:32] [Server thread/INFO]: skuru issued server command: /hell setup
+[02:05:08] [Server thread/INFO]: skuru issued server command: /hell setup
+[02:14:09] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[02:14:09] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[02:14:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:14:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:14:09] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[02:14:09] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[02:14:09] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[02:14:09] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[02:14:09] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:14:09] [Server thread/INFO]: Loaded 7 recipes
+[02:14:10] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[02:14:10] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1147406]
+[02:14:10] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[02:14:10] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[02:14:10] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[02:14:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:14:10] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[02:14:10] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:14:10] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:14:10] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[02:14:10] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[02:14:11] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[02:14:11] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[02:14:11] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[02:14:11] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[02:14:11] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[02:14:11] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[02:14:11] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[02:14:11] [Server thread/INFO]: [KuruservPlugin] 쿠루섭 기본플러그인 활성화!
+[02:14:11] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[02:14:11] [Server thread/INFO]: CONSOLE: Reload complete.
+[02:14:11] [Server thread/INFO]: Timings Reset
+[02:14:14] [Server thread/INFO]: skuru issued server command: /hell open
+[02:15:54] [Server thread/INFO]: Stopping the server
+[02:15:54] [Server thread/INFO]: Stopping server
+[02:15:54] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[02:15:54] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[02:15:54] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[02:15:54] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[02:15:54] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:15:54] [Server thread/INFO]: Saving players
+[02:15:54] [Server thread/INFO]: skuru lost connection: Server closed
+[02:15:54] [Server thread/INFO]: skuru left the game
+[02:15:54] [Server thread/INFO]: Saving worlds
+[02:15:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:15:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[02:15:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[02:15:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[02:15:54] [Server thread/INFO]: [ChunkHolderManager] Saved 9 block chunks, 13 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[02:15:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:15:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:15:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[02:15:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[02:15:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[02:15:55] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 38 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[02:15:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:15:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:15:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[02:15:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[02:15:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[02:15:55] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 48 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[02:15:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:15:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[test]'/minecraft:test
+[02:15:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'test'
+[02:15:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'test'
+[02:15:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'test'
+[02:15:55] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 79 entity chunks, 0 poi chunks in world 'test' in 0.02s
+[02:15:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (test): All chunks are saved
+[02:15:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:15:55] [Server thread/INFO]: Flushing Chunk IO
+[02:15:55] [Server thread/INFO]: Closing Thread Pool
+[02:15:55] [Server thread/INFO]: Closing Server
