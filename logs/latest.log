@@ -1,87 +1,62 @@
-[15:54:57] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:54:59] [ServerMain/INFO]: Loaded 7 recipes
-[15:55:00] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[15:55:00] [Server thread/INFO]: Loading properties
-[15:55:00] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[15:55:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:55:00] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:55:01] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[15:59:54] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:59:59] [ServerMain/INFO]: Loaded 7 recipes
+[16:00:00] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[16:00:00] [Server thread/INFO]: Loading properties
+[16:00:00] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[16:00:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:00:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:00:01] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[15:55:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[15:55:01] [Server thread/INFO]: Default game type: CREATIVE
-[15:55:01] [Server thread/INFO]: Generating keypair
-[15:55:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:55:01] [Server thread/INFO]: Using default channel type
-[15:55:01] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[15:55:01] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[15:55:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:55:01] [Server thread/INFO]: Preparing level "world"
-[15:55:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:55:02] [Server thread/INFO]: Time elapsed: 118 ms
-[15:55:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:55:02] [Server thread/INFO]: Time elapsed: 39 ms
-[15:55:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:55:02] [Server thread/INFO]: Time elapsed: 23 ms
-[15:55:02] [Server thread/INFO]: Running delayed init tasks
-[15:55:02] [Server thread/INFO]: Done (1.897s)! For help, type "help"
-[15:55:02] [Server thread/INFO]: Timings Reset
-[15:55:19] [User Authenticator #0/INFO]: UUID of player skuru is 77a248d7-22d9-44fb-b802-f76b9999e315
-[15:55:19] [Server thread/INFO]: ¤¾¤·?skuru joined the game
-[15:55:19] [Server thread/INFO]: skuru[/127.0.0.1:5672] logged in with entity id 147 at ([world]-77.34216015858337, 54.0, -79.01170014600972)
-[15:55:32] [Server thread/INFO]: skuru issued server command: /team remove a
-[15:55:50] [Server thread/INFO]: skuru issued server command: /team add a
-[15:55:53] [Server thread/INFO]: skuru issued server command: /team join a
-[15:56:06] [Server thread/INFO]: skuru issued server command: /team modify a prefix {"text":"½»±×·ù¹Ù"}
-[15:56:18] [Server thread/INFO]: skuru issued server command: /team modify a color light_purple
-[15:56:24] [Server thread/INFO]: skuru issued server command: /reload confirm
-[15:56:24] [Server thread/INFO]: skuru: Please note that this command is not supported and may cause issues when using some plugins.
-[15:56:24] [Server thread/INFO]: skuru: If you encounter any issues please use the /stop command to restart your server.
-[15:56:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:56:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:56:24] [Server thread/INFO]: Loaded 7 recipes
-[15:56:25] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
-[15:56:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:56:25] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
-[15:56:25] [Server thread/INFO]: skuru: Reload complete.
-[15:56:25] [Server thread/INFO]: Timings Reset
-[15:59:01] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[15:59:01] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[15:59:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:59:01] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:59:01] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
-[15:59:02] [Server thread/INFO]: Loaded 7 recipes
-[15:59:02] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
-[15:59:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:59:02] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
-[15:59:02] [Server thread/INFO]: CONSOLE: Reload complete.
-[15:59:02] [Server thread/INFO]: Timings Reset
-[15:59:21] [Server thread/INFO]: Stopping the server
-[15:59:21] [Server thread/INFO]: Stopping server
-[15:59:21] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
-[15:59:21] [Server thread/INFO]: Saving players
-[15:59:21] [Server thread/INFO]: skuru lost connection: Server closed
-[15:59:21] [Server thread/INFO]: skuru left the game
-[15:59:21] [Server thread/INFO]: Saving worlds
-[15:59:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:59:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[15:59:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[15:59:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[15:59:22] [Server thread/INFO]: [ChunkHolderManager] Saved 725 block chunks, 725 entity chunks, 0 poi chunks in world 'world' in 0.76s
-[15:59:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:59:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[15:59:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[15:59:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[15:59:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[15:59:23] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.71s
-[15:59:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:59:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[15:59:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[15:59:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[15:59:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[15:59:24] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.15s
-[15:59:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:59:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:59:25] [Server thread/INFO]: Flushing Chunk IO
-[15:59:25] [Server thread/INFO]: Closing Thread Pool
-[15:59:25] [Server thread/INFO]: Closing Server
+[16:00:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[16:00:01] [Server thread/INFO]: Default game type: CREATIVE
+[16:00:01] [Server thread/INFO]: Generating keypair
+[16:00:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:00:01] [Server thread/INFO]: Using default channel type
+[16:00:01] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[16:00:01] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[16:00:02] [Server thread/INFO]: [Hell] Loading server plugin Hell v1.0.0
+[16:00:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:00:02] [Server thread/INFO]: Preparing level "world"
+[16:00:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:00:02] [Server thread/INFO]: Time elapsed: 118 ms
+[16:00:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:00:02] [Server thread/INFO]: Time elapsed: 25 ms
+[16:00:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:00:02] [Server thread/INFO]: Time elapsed: 26 ms
+[16:00:02] [Server thread/INFO]: [Hell] Enabling Hell v1.0.0
+[16:00:02] [Server thread/INFO]: Running delayed init tasks
+[16:00:02] [Server thread/INFO]: Done (2.147s)! For help, type "help"
+[16:00:02] [Server thread/INFO]: Timings Reset
+[16:00:18] [User Authenticator #0/INFO]: UUID of player skuru is 77a248d7-22d9-44fb-b802-f76b9999e315
+[16:00:18] [Server thread/INFO]: skuru ´ÔÀÌ ¼­¹ö¿¡ ¸· µîÀåÇÏ¼Ì¾î¿ä.
+[16:00:18] [Server thread/INFO]: skuru[/127.0.0.1:5825] logged in with entity id 147 at ([world]-47.22290490712836, 54.0, -95.61772909936798)
+[16:00:31] [Server thread/INFO]: Stopping the server
+[16:00:31] [Server thread/INFO]: Stopping server
+[16:00:31] [Server thread/INFO]: [Hell] Disabling Hell v1.0.0
+[16:00:31] [Server thread/INFO]: Saving players
+[16:00:31] [Server thread/INFO]: skuru lost connection: Server closed
+[16:00:31] [Server thread/INFO]: skuru left the game
+[16:00:31] [Server thread/INFO]: Saving worlds
+[16:00:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:00:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:00:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:00:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:00:32] [Server thread/INFO]: [ChunkHolderManager] Saved 694 block chunks, 694 entity chunks, 0 poi chunks in world 'world' in 0.73s
+[16:00:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:00:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:00:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:00:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:00:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:00:33] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.70s
+[16:00:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:00:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:00:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:00:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:00:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:00:34] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.14s
+[16:00:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:00:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:00:35] [Server thread/INFO]: Flushing Chunk IO
+[16:00:35] [Server thread/INFO]: Closing Thread Pool
+[16:00:35] [Server thread/INFO]: Closing Server
