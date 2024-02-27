@@ -1,0 +1,4 @@
+join-message:
+  display-messsage: true
+  message: '&7{playername} 님이 착륙하셨어요.'
+  display-message: true
