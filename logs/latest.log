@@ -1,462 +1,147 @@
-[21:00:54] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:00:57] [ServerMain/INFO]: Loaded 7 recipes
-[21:00:57] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[21:00:57] [Server thread/INFO]: Loading properties
-[21:00:58] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[21:00:58] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:00:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:00:58] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[18:16:20] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:16:24] [ServerMain/INFO]: Loaded 7 recipes
+[18:16:25] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[18:16:25] [Server thread/INFO]: Loading properties
+[18:16:25] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[18:16:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:16:25] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:16:26] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[21:00:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[21:00:59] [Server thread/INFO]: Default game type: CREATIVE
-[21:00:59] [Server thread/INFO]: Generating keypair
-[21:00:59] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:00:59] [Server thread/INFO]: Using default channel type
-[21:00:59] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[21:00:59] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[21:00:59] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
-[21:01:00] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@770c8fda]
-[21:01:00] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
-[21:01:00] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
-[21:01:00] [Server thread/INFO]: [EnchantBookGacha] Loading server plugin EnchantBookGacha v1.0.0
-[21:01:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:01:00] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
-[21:01:00] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:01:00] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:01:00] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[21:01:01] [Server thread/INFO]: Preparing level "world"
-[21:01:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:01:02] [Server thread/INFO]: Time elapsed: 246 ms
-[21:01:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:01:02] [Server thread/INFO]: Time elapsed: 26 ms
-[21:01:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:01:02] [Server thread/INFO]: Time elapsed: 20 ms
-[21:01:02] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
-[21:01:02] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[21:01:02] [Server thread/INFO]: [Multiverse-Core] ¡×aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[21:01:03] [Server thread/INFO]: Preparing start region for dimension minecraft:test
-[21:01:03] [Server thread/INFO]: Time elapsed: 16 ms
-[21:01:03] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[21:01:03] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[21:01:03] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[21:01:03] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
-[21:01:03] [Server thread/INFO]: [KuruservPlugin] Äí·ç¼· ±âº»ÇÃ·¯±×ÀÎ È°¼ºÈ­!
-[21:01:03] [Server thread/INFO]: [EnchantBookGacha] Enabling EnchantBookGacha v1.0.0
-[21:01:03] [Server thread/INFO]: [EnchantBookGacha] ÀÎÃ¦Æ®ºÏ°¡Ã­
-[21:01:03] [Server thread/INFO]: Running delayed init tasks
-[21:01:03] [Server thread/INFO]: Done (5.397s)! For help, type "help"
-[21:01:03] [Server thread/INFO]: Timings Reset
-[21:01:07] [User Authenticator #0/INFO]: UUID of player skuru is 77a248d7-22d9-44fb-b802-f76b9999e315
-[21:01:07] [Server thread/INFO]: [Äí·ç¼·] skuru ´ÔÀÌ Âø·úÇÏ¼Ì¾î¿ä.
-[21:01:07] [Server thread/INFO]: skuru[/127.0.0.1:8459] logged in with entity id 21 at ([world]-162.09128126561183, 58.3843979899187, -94.5655864439335)
-[21:01:19] [Server thread/INFO]: skuru issued server command: /ebgacha
-[21:01:20] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:01:58] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:02:07] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:02:10] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:02:14] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:02:39] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:03:08] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[21:03:08] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[21:03:08] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:03:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:03:09] [Server thread/INFO]: [EnchantBookGacha] Disabling EnchantBookGacha v1.0.0
-[21:03:09] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
-[21:03:09] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
-[21:03:09] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
-[21:03:09] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:03:10] [Server thread/INFO]: Loaded 7 recipes
-[21:03:10] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
-[21:03:11] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@10d59fa7]
-[21:03:11] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
-[21:03:11] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
-[21:03:11] [Server thread/INFO]: [EnchantBookGacha] Loading server plugin EnchantBookGacha v1.0.0
-[21:03:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:03:11] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
-[21:03:11] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:03:11] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:03:11] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[21:03:11] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[21:03:12] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
-[21:03:12] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[21:03:12] [Server thread/INFO]: [Multiverse-Core] ¡×aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[21:03:12] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[21:03:12] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[21:03:12] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[21:03:12] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
-[21:03:12] [Server thread/INFO]: [KuruservPlugin] Äí·ç¼· ±âº»ÇÃ·¯±×ÀÎ È°¼ºÈ­!
-[21:03:12] [Server thread/INFO]: [EnchantBookGacha] Enabling EnchantBookGacha v1.0.0
-[21:03:12] [Server thread/INFO]: [EnchantBookGacha] ÀÎÃ¦Æ®ºÏ°¡Ã­
-[21:03:12] [Server thread/INFO]: CONSOLE: Reload complete.
-[21:03:12] [Server thread/INFO]: Timings Reset
-[21:03:14] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:03:21] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:03:54] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:10:22] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[21:10:22] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[21:10:22] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:10:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:10:22] [Server thread/INFO]: [EnchantBookGacha] Disabling EnchantBookGacha v1.0.0
-[21:10:22] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
-[21:10:22] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
-[21:10:22] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
-[21:10:22] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:10:23] [Server thread/INFO]: Loaded 7 recipes
-[21:10:24] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
-[21:10:24] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@575fbf8b]
-[21:10:24] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
-[21:10:24] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
-[21:10:24] [Server thread/INFO]: [EnchantBookGacha] Loading server plugin EnchantBookGacha v1.0.0
-[21:10:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:10:24] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
-[21:10:24] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:10:24] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:10:24] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[21:10:24] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[21:10:25] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
-[21:10:25] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[21:10:25] [Server thread/INFO]: [Multiverse-Core] ¡×aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[21:10:25] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[21:10:25] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[21:10:25] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[21:10:25] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
-[21:10:25] [Server thread/INFO]: [KuruservPlugin] Äí·ç¼· ±âº»ÇÃ·¯±×ÀÎ È°¼ºÈ­!
-[21:10:25] [Server thread/INFO]: [EnchantBookGacha] Enabling EnchantBookGacha v1.0.0
-[21:10:25] [Server thread/INFO]: [EnchantBookGacha] ÀÎÃ¦Æ®ºÏ°¡Ã­
-[21:10:25] [Server thread/INFO]: CONSOLE: Reload complete.
-[21:10:25] [Server thread/INFO]: Timings Reset
-[21:10:28] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:10:51] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[21:10:51] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[21:10:51] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:10:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:10:51] [Server thread/INFO]: [EnchantBookGacha] Disabling EnchantBookGacha v1.0.0
-[21:10:51] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
-[21:10:51] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
-[21:10:51] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
-[21:10:51] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:10:51] [Server thread/INFO]: Loaded 7 recipes
-[21:10:52] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
-[21:10:52] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@11b0eb17]
-[21:10:52] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
-[21:10:52] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
-[21:10:52] [Server thread/INFO]: [EnchantBookGacha] Loading server plugin EnchantBookGacha v1.0.0
-[21:10:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:10:52] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
-[21:10:52] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:10:52] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:10:52] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[21:10:53] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[21:10:53] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
-[21:10:53] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[21:10:53] [Server thread/INFO]: [Multiverse-Core] ¡×aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[21:10:53] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[21:10:53] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[21:10:53] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[21:10:53] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
-[21:10:53] [Server thread/INFO]: [KuruservPlugin] Äí·ç¼· ±âº»ÇÃ·¯±×ÀÎ È°¼ºÈ­!
-[21:10:54] [Server thread/INFO]: [EnchantBookGacha] Enabling EnchantBookGacha v1.0.0
-[21:10:54] [Server thread/INFO]: [EnchantBookGacha] ÀÎÃ¦Æ®ºÏ°¡Ã­
-[21:10:54] [Server thread/INFO]: CONSOLE: Reload complete.
-[21:10:54] [Server thread/INFO]: Timings Reset
-[21:10:57] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:12:29] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[21:12:29] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[21:12:29] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:12:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:12:29] [Server thread/INFO]: [EnchantBookGacha] Disabling EnchantBookGacha v1.0.0
-[21:12:29] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
-[21:12:29] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
-[21:12:29] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
-[21:12:29] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:12:29] [Server thread/INFO]: Loaded 7 recipes
-[21:12:30] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
-[21:12:30] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@33fa29c7]
-[21:12:30] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
-[21:12:30] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
-[21:12:30] [Server thread/INFO]: [EnchantBookGacha] Loading server plugin EnchantBookGacha v1.0.0
-[21:12:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:12:30] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
-[21:12:30] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:12:30] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:12:30] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[21:12:31] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[21:12:31] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
-[21:12:31] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[21:12:31] [Server thread/INFO]: [Multiverse-Core] ¡×aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[21:12:31] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[21:12:31] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[21:12:31] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[21:12:31] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
-[21:12:31] [Server thread/INFO]: [KuruservPlugin] Äí·ç¼· ±âº»ÇÃ·¯±×ÀÎ È°¼ºÈ­!
-[21:12:31] [Server thread/INFO]: [EnchantBookGacha] Enabling EnchantBookGacha v1.0.0
-[21:12:31] [Server thread/INFO]: [EnchantBookGacha] ÀÎÃ¦Æ®ºÏ°¡Ã­
-[21:12:31] [Server thread/INFO]: CONSOLE: Reload complete.
-[21:12:31] [Server thread/INFO]: Timings Reset
-[21:12:34] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:12:51] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[21:12:51] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[21:12:51] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:12:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:12:51] [Server thread/INFO]: [EnchantBookGacha] Disabling EnchantBookGacha v1.0.0
-[21:12:51] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
-[21:12:51] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
-[21:12:51] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
-[21:12:51] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:12:52] [Server thread/INFO]: Loaded 7 recipes
-[21:12:52] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
-[21:12:53] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4e2e9a4]
-[21:12:53] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
-[21:12:53] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
-[21:12:53] [Server thread/INFO]: [EnchantBookGacha] Loading server plugin EnchantBookGacha v1.0.0
-[21:12:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:12:53] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
-[21:12:53] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:12:53] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:12:53] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[21:12:53] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[21:12:54] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
-[21:12:54] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[21:12:54] [Server thread/INFO]: [Multiverse-Core] ¡×aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[21:12:54] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[21:12:54] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[21:12:54] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[21:12:54] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
-[21:12:54] [Server thread/INFO]: [KuruservPlugin] Äí·ç¼· ±âº»ÇÃ·¯±×ÀÎ È°¼ºÈ­!
-[21:12:54] [Server thread/INFO]: [EnchantBookGacha] Enabling EnchantBookGacha v1.0.0
-[21:12:54] [Server thread/INFO]: [EnchantBookGacha] ÀÎÃ¦Æ®ºÏ°¡Ã­
-[21:12:54] [Server thread/INFO]: CONSOLE: Reload complete.
-[21:12:54] [Server thread/INFO]: Timings Reset
-[21:12:57] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:13:06] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:13:28] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[21:13:28] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[21:13:28] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:13:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:13:28] [Server thread/INFO]: [EnchantBookGacha] Disabling EnchantBookGacha v1.0.0
-[21:13:28] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
-[21:13:28] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
-[21:13:28] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
-[21:13:28] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:13:29] [Server thread/INFO]: Loaded 7 recipes
-[21:13:29] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
-[21:13:30] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3668f071]
-[21:13:30] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
-[21:13:30] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
-[21:13:30] [Server thread/INFO]: [EnchantBookGacha] Loading server plugin EnchantBookGacha v1.0.0
-[21:13:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:13:30] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
-[21:13:30] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:13:30] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:13:30] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[21:13:30] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[21:13:30] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
-[21:13:30] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[21:13:30] [Server thread/INFO]: [Multiverse-Core] ¡×aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[21:13:31] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[21:13:31] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[21:13:31] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[21:13:31] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
-[21:13:31] [Server thread/INFO]: [KuruservPlugin] Äí·ç¼· ±âº»ÇÃ·¯±×ÀÎ È°¼ºÈ­!
-[21:13:31] [Server thread/INFO]: [EnchantBookGacha] Enabling EnchantBookGacha v1.0.0
-[21:13:31] [Server thread/INFO]: [EnchantBookGacha] ÀÎÃ¦Æ®ºÏ°¡Ã­
-[21:13:31] [Server thread/INFO]: CONSOLE: Reload complete.
-[21:13:31] [Server thread/INFO]: Timings Reset
-[21:14:01] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[21:14:01] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[21:14:01] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:14:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:14:01] [Server thread/INFO]: [EnchantBookGacha] Disabling EnchantBookGacha v1.0.0
-[21:14:01] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
-[21:14:01] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
-[21:14:01] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
-[21:14:01] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:14:02] [Server thread/INFO]: Loaded 7 recipes
-[21:14:02] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
-[21:14:03] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@48098ec0]
-[21:14:03] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
-[21:14:03] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
-[21:14:03] [Server thread/INFO]: [EnchantBookGacha] Loading server plugin EnchantBookGacha v1.0.0
-[21:14:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:14:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
-[21:14:03] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:14:03] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:14:03] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[21:14:03] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[21:14:04] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
-[21:14:04] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[21:14:04] [Server thread/INFO]: [Multiverse-Core] ¡×aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[21:14:04] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[21:14:04] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[21:14:04] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[21:14:04] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
-[21:14:04] [Server thread/INFO]: [KuruservPlugin] Äí·ç¼· ±âº»ÇÃ·¯±×ÀÎ È°¼ºÈ­!
-[21:14:04] [Server thread/INFO]: [EnchantBookGacha] Enabling EnchantBookGacha v1.0.0
-[21:14:04] [Server thread/INFO]: [EnchantBookGacha] ÀÎÃ¦Æ®ºÏ°¡Ã­
-[21:14:04] [Server thread/INFO]: CONSOLE: Reload complete.
-[21:14:04] [Server thread/INFO]: Timings Reset
-[21:14:09] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:14:14] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:14:18] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:14:22] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:14:26] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:14:28] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:21:02] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:21:13] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:21:17] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:21:21] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:21:24] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:21:27] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:21:30] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:21:37] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:21:40] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:22:07] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:23:01] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:23:08] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:23:12] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:23:14] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:23:17] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:23:19] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:23:20] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:23:22] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:23:24] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:23:26] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:23:28] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:23:30] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:23:32] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:23:34] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:23:36] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:09] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[21:25:09] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[21:25:09] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:25:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:25:09] [Server thread/INFO]: [EnchantBookGacha] Disabling EnchantBookGacha v1.0.0
-[21:25:09] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
-[21:25:09] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
-[21:25:09] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
-[21:25:09] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:25:10] [Server thread/INFO]: Loaded 7 recipes
-[21:25:10] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
-[21:25:11] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@415fabca]
-[21:25:11] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
-[21:25:11] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
-[21:25:11] [Server thread/INFO]: [EnchantBookGacha] Loading server plugin EnchantBookGacha v1.0.0
-[21:25:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:25:11] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
-[21:25:11] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:25:11] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:25:11] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[21:25:11] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[21:25:12] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
-[21:25:12] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[21:25:12] [Server thread/INFO]: [Multiverse-Core] ¡×aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[21:25:12] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[21:25:12] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[21:25:12] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[21:25:12] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
-[21:25:12] [Server thread/INFO]: [KuruservPlugin] Äí·ç¼· ±âº»ÇÃ·¯±×ÀÎ È°¼ºÈ­!
-[21:25:12] [Server thread/INFO]: [EnchantBookGacha] Enabling EnchantBookGacha v1.0.0
-[21:25:12] [Server thread/INFO]: [EnchantBookGacha] ÀÎÃ¦Æ®ºÏ°¡Ã­
-[21:25:12] [Server thread/INFO]: CONSOLE: Reload complete.
-[21:25:12] [Server thread/INFO]: Timings Reset
-[21:25:15] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:18] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:20] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:21] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:23] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:25] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:26] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:28] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:30] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:32] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:34] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:36] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:39] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:42] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:44] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:45] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:46] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:47] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:49] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:50] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:51] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:25:58] [Server thread/INFO]: skuru issued server command: /rl
-[21:25:58] [Server thread/INFO]: skuru issued server command: /reload confirm
-[21:25:58] [Server thread/INFO]: skuru: Please note that this command is not supported and may cause issues when using some plugins.
-[21:25:58] [Server thread/INFO]: skuru: If you encounter any issues please use the /stop command to restart your server.
-[21:25:58] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:25:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:25:58] [Server thread/INFO]: [EnchantBookGacha] Disabling EnchantBookGacha v1.0.0
-[21:25:58] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
-[21:25:58] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
-[21:25:58] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
-[21:25:58] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:25:59] [Server thread/INFO]: Loaded 7 recipes
-[21:25:59] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
-[21:26:00] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3ff310e7]
-[21:26:00] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
-[21:26:00] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
-[21:26:00] [Server thread/INFO]: [EnchantBookGacha] Loading server plugin EnchantBookGacha v1.0.0
-[21:26:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:26:00] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
-[21:26:00] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:26:00] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:26:00] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[21:26:00] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[21:26:00] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
-[21:26:00] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[21:26:00] [Server thread/INFO]: [Multiverse-Core] ¡×aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[21:26:01] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[21:26:01] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[21:26:01] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[21:26:01] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
-[21:26:01] [Server thread/INFO]: [KuruservPlugin] Äí·ç¼· ±âº»ÇÃ·¯±×ÀÎ È°¼ºÈ­!
-[21:26:01] [Server thread/INFO]: [EnchantBookGacha] Enabling EnchantBookGacha v1.0.0
-[21:26:01] [Server thread/INFO]: [EnchantBookGacha] ÀÎÃ¦Æ®ºÏ°¡Ã­
-[21:26:01] [Server thread/INFO]: skuru: Reload complete.
-[21:26:01] [Server thread/INFO]: Timings Reset
-[21:26:03] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:26:05] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:26:07] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:26:09] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:26:10] [Server thread/INFO]: skuru issued server command: /ebgacha skuru
-[21:26:50] [Server thread/INFO]: skuru issued server command: /stop
-[21:26:50] [Server thread/INFO]: Stopping server
-[21:26:50] [Server thread/INFO]: [EnchantBookGacha] Disabling EnchantBookGacha v1.0.0
-[21:26:50] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
-[21:26:50] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
-[21:26:50] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
-[21:26:50] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:26:50] [Server thread/INFO]: Saving players
-[21:26:50] [Server thread/INFO]: skuru lost connection: Server closed
-[21:26:50] [Server thread/INFO]: skuru left the game
-[21:26:51] [Server thread/INFO]: Saving worlds
-[21:26:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:26:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[21:26:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[21:26:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[21:26:51] [Server thread/INFO]: [ChunkHolderManager] Saved 309 block chunks, 308 entity chunks, 0 poi chunks in world 'world' in 0.24s
-[21:26:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:26:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:26:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[21:26:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[21:26:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[21:26:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 39 entity chunks, 0 poi chunks in world 'world_nether' in 0.03s
-[21:26:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:26:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:26:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[21:26:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[21:26:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[21:26:52] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[21:26:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:26:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[test]'/minecraft:test
-[21:26:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'test'
-[21:26:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'test'
-[21:26:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'test'
-[21:26:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 76 entity chunks, 0 poi chunks in world 'test' in 0.02s
-[21:26:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (test): All chunks are saved
-[21:26:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:26:52] [Server thread/INFO]: Flushing Chunk IO
-[21:26:52] [Server thread/INFO]: Closing Thread Pool
-[21:26:52] [Server thread/INFO]: Closing Server
+[18:16:26] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[18:16:26] [Server thread/INFO]: Default game type: CREATIVE
+[18:16:26] [Server thread/INFO]: Generating keypair
+[18:16:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:16:26] [Server thread/INFO]: Using default channel type
+[18:16:26] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[18:16:26] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:16:27] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[18:16:27] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@40e7f161]
+[18:16:27] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[18:16:27] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[18:16:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:16:27] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[18:16:27] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:16:27] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:16:28] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[18:16:30] [Server thread/INFO]: Preparing level "world"
+[18:16:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:16:34] [Server thread/INFO]: Time elapsed: 390 ms
+[18:16:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:16:34] [Server thread/INFO]: Time elapsed: 24 ms
+[18:16:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:16:34] [Server thread/INFO]: Time elapsed: 22 ms
+[18:16:34] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[18:16:34] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[18:16:34] [Server thread/INFO]: [Multiverse-Core] ¡×aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[18:16:34] [Server thread/INFO]: Preparing start region for dimension minecraft:test
+[18:16:34] [Server thread/INFO]: Time elapsed: 16 ms
+[18:16:34] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[18:16:34] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[18:16:34] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[18:16:34] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[18:16:34] [Server thread/INFO]: [KuruservPlugin] Äí·ç¼· ±âº»ÇÃ·¯±×ÀÎ È°¼ºÈ­!
+[18:16:34] [Server thread/INFO]: Running delayed init tasks
+[18:16:34] [Server thread/INFO]: Done (9.460s)! For help, type "help"
+[18:16:34] [Server thread/INFO]: Timings Reset
+[18:17:17] [User Authenticator #0/INFO]: UUID of player skuru is 77a248d7-22d9-44fb-b802-f76b9999e315
+[18:17:17] [Server thread/INFO]: [Äí·ç¼·] skuru ´ÔÀÌ Âø·úÇÏ¼Ì¾î¿ä.
+[18:17:17] [Server thread/INFO]: skuru[/192.168.0.53:7981] logged in with entity id 267 at ([world]-45.68462223472815, 62.993137005950196, -146.9294503157383)
+[18:17:43] [Server thread/INFO]: skuru lost connection: Disconnected
+[18:17:43] [Server thread/INFO]: skuru left the game
+[18:19:33] [User Authenticator #1/INFO]: UUID of player skuru is 77a248d7-22d9-44fb-b802-f76b9999e315
+[18:19:34] [Server thread/INFO]: [Äí·ç¼·] skuru ´ÔÀÌ Âø·úÇÏ¼Ì¾î¿ä.
+[18:19:34] [Server thread/INFO]: skuru[/127.0.0.1:8125] logged in with entity id 268 at ([world]-45.68462223472815, 62.993137005950196, -146.9294503157383)
+[18:20:13] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[18:20:13] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[18:20:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:20:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:20:13] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[18:20:13] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[18:20:13] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[18:20:14] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:20:15] [Server thread/INFO]: Loaded 7 recipes
+[18:20:16] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[18:20:16] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4b1db150]
+[18:20:16] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[18:20:16] [Server thread/INFO]: [KuruservPlugin] Loading server plugin KuruservPlugin v1.0
+[18:20:16] [Server thread/INFO]: [HeemangChat] Loading server plugin HeemangChat v2.1.2
+[18:20:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:20:16] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[18:20:16] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:20:17] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:20:17] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:20:17] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[18:20:18] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[18:20:18] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[18:20:18] [Server thread/INFO]: [Multiverse-Core] ¡×aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[18:20:18] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[18:20:18] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[18:20:18] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[18:20:18] [Server thread/INFO]: [KuruservPlugin] Enabling KuruservPlugin v1.0
+[18:20:18] [Server thread/INFO]: [KuruservPlugin] Äí·ç¼· ±âº»ÇÃ·¯±×ÀÎ È°¼ºÈ­!
+[18:20:18] [Server thread/INFO]: [HeemangChat] Enabling HeemangChat v2.1.2
+[18:20:18] [Server thread/INFO]: [HeemangChat] Èñ¸ÁÃªÃª
+[18:20:18] [Server thread/INFO]: CONSOLE: Reload complete.
+[18:20:18] [Server thread/INFO]: Timings Reset
+[18:20:27] [Server thread/INFO]: skuru issued server command: /party ÃÊ´ë skuru
+[18:20:29] [Server thread/INFO]: skuru issued server command: /party ÃÊ´ë skuru1
+[18:20:33] [Server thread/INFO]: skuru issued server command: /party ÃÊ´ë skur
+[18:20:36] [Server thread/INFO]: skuru issued server command: /party ÃÊ´ë s
+[18:20:38] [Server thread/INFO]: skuru issued server command: /party ÃÊ´ë ;
+[18:20:39] [Server thread/INFO]: skuru issued server command: /party ÃÊ´ë g
+[18:20:41] [Server thread/INFO]: skuru issued server command: /party ÃÊ´ë s
+[18:22:40] [Server thread/INFO]: skuru lost connection: Disconnected
+[18:22:40] [Server thread/INFO]: skuru left the game
+[18:22:46] [User Authenticator #2/INFO]: UUID of player skuru is 77a248d7-22d9-44fb-b802-f76b9999e315
+[18:22:46] [Server thread/INFO]: [Äí·ç¼·] skuru ´ÔÀÌ Âø·úÇÏ¼Ì¾î¿ä.
+[18:22:46] [Server thread/INFO]: skuru[/192.168.0.1:8255] logged in with entity id 269 at ([world]-81.77840553042222, 54.0, -176.30000001192093)
+[18:23:04] [User Authenticator #2/INFO]: UUID of player Kapeurto is 61395be7-c3c2-4a88-aa2c-5b890f64b3d1
+[18:23:04] [Server thread/INFO]: [Äí·ç¼·] Kapeurto ´ÔÀÌ Âø·úÇÏ¼Ì¾î¿ä.
+[18:23:04] [Server thread/INFO]: Kapeurto[/122.35.100.11:8172] logged in with entity id 270 at ([world]-95.5, 54.0, -102.5)
+[18:23:05] [Server thread/INFO]: Kapeurto has made the advancement [Äí·ç¼· ½ÃÁð2!]
+[18:23:08] [Server thread/INFO]: Kapeurto issued server command: /gmc
+[18:23:21] [Server thread/INFO]: skuru issued server command: /party ÃÊ´ë Kapeurto
+[18:23:21] [Server thread/INFO]: Kapeurto issued server command: /gmc
+[18:23:23] [Server thread/INFO]: Kapeurto issued server command: /p accept skuru
+[18:23:30] [Server thread/INFO]: skuru lost connection: Disconnected
+[18:23:30] [Server thread/INFO]: skuru left the game
+[18:34:20] [Server thread/INFO]: Kapeurto lost connection: Disconnected
+[18:34:20] [Server thread/INFO]: Kapeurto left the game
+[18:40:33] [Server thread/INFO]: Stopping the server
+[18:40:33] [Server thread/INFO]: Stopping server
+[18:40:33] [Server thread/INFO]: [HeemangChat] Disabling HeemangChat v2.1.2
+[18:40:33] [Server thread/INFO]: [KuruservPlugin] Disabling KuruservPlugin v1.0
+[18:40:33] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[18:40:33] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[18:40:33] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:40:33] [Server thread/INFO]: Saving players
+[18:40:33] [Server thread/INFO]: Saving worlds
+[18:40:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:40:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:40:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:40:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:40:33] [Server thread/INFO]: [ChunkHolderManager] Saved 9 block chunks, 15 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[18:40:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:40:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:40:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:40:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:40:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:40:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 42 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[18:40:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:40:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:40:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:40:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:40:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:40:34] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 51 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[18:40:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:40:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[test]'/minecraft:test
+[18:40:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'test'
+[18:40:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'test'
+[18:40:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'test'
+[18:40:34] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 76 entity chunks, 0 poi chunks in world 'test' in 0.02s
+[18:40:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (test): All chunks are saved
+[18:40:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:40:34] [Server thread/INFO]: Flushing Chunk IO
+[18:40:34] [Server thread/INFO]: Closing Thread Pool
+[18:40:34] [Server thread/INFO]: Closing Server
